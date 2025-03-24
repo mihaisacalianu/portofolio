@@ -1,0 +1,30 @@
+.content-container{
+  color: white;
+  width: 50%;
+  height: 600px;
+  font-family: "Baumans", system-ui;
+}
+
+.content-container h1{
+  font-size: 5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content-container-btn{
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  margin-top: 2rem;
+  box-shadow: 0 0 100px rgba(231, 76, 60, 1); /* Glowing red effect */
+  transition: box-shadow 0.5s ease;
+  color: #061B2D;
+  border: 1px solid white;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.content-container-btn:hover{
+  box-shadow: 0 0 300px rgba(231, 76, 60, 1);
+  color: white;
+}
