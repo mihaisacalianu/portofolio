@@ -1,0 +1,65 @@
+.nav-bar{
+  width: 80%;
+  height: 20%;
+  border-radius: 20px;
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  font-family: "Baumans", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 0 0 100px rgba(231, 76, 60, 1); /* Glowing red effect */
+  transition: box-shadow 0.5s ease;
+}
+.nav-bar:hover{
+  box-shadow: 0 0 300px rgba(231, 76, 60, 1);
+}
+.nav-bar-menu{
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar-name{
+  color:#061B2D
+
+}
+
+.nav-bar-name:hover{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.nav-bar-links{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.nav-bar-links a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover{
+  color: #061B2D;
+  transform: scale(1.1);
+}
+
+.nav-bar-avatar-photo{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.nav-bar-avatar-photo:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
