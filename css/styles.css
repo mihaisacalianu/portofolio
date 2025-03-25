@@ -1,5 +1,7 @@
 @import url('components/navBar.css');
 @import url('components/contentContainer.css');
+@import url('components/logosContainer.css');
+@import url('components/backToTop.css');
 
 
 body {
@@ -22,4 +24,26 @@ body {
   box-shadow: 0 0 100px rgba(231, 76, 60, 1); /* Glowing red effect */
   transition: box-shadow 0.5s ease;
   border-radius: 30px;
+}
+.skills-main-container{
+  font-family: "Baumans", system-ui;
+  width: 70%;
+  height: 100dvh;
+  font-size: 5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills-main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.skills-main-content h3{
+  font-size: 3rem;
 }

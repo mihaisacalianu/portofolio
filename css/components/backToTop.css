@@ -1,0 +1,5 @@
+.home-btn{
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
