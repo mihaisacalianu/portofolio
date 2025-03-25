@@ -1,11 +1,11 @@
-.content-container{
+.main-text-container{
   color: white;
-  width: 50%;
+  width: 60%;
   height: 600px;
   font-family: "Baumans", system-ui;
 }
 
-.content-container h1{
+.main-text-container h1{
   font-size: 5rem;
   font-weight: bold;
   background: linear-gradient(to right, #bddcfc, #ee3910);

@@ -10,6 +10,16 @@ body {
 }
 
 .main-container {
+  margin-top: 4rem;
   width: 70%;
-  height: calc(100dvh - 90px);
+  height: calc(100dvh - 240px);
+  background-image: url('../images/landing-background.png');
+  background-color: rgba(6, 27, 45, 0.1); /* Semi-transparent white overlay */
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 100px rgba(231, 76, 60, 1); /* Glowing red effect */
+  transition: box-shadow 0.5s ease;
+  border-radius: 30px;
 }
