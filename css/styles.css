@@ -1,5 +1,7 @@
 @import url('components/navBar.css');
 @import url('components/contentContainer.css');
+@import url('components/logosContainer.css');
+@import url('components/backToTop.css');
 
 
 body {
@@ -24,10 +26,24 @@ body {
   border-radius: 30px;
 }
 .skills-main-container{
+  font-family: "Baumans", system-ui;
   width: 70%;
+  height: 100dvh;
   font-size: 5rem;
   font-weight: bold;
   background: linear-gradient(to right, #bddcfc, #ee3910);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.skills-main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.skills-main-content h3{
+  font-size: 3rem;
 }
