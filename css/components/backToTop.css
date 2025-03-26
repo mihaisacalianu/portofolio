@@ -2,4 +2,6 @@
   background: linear-gradient(to right, #bddcfc, #ee3910);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  font-family: "Baumans", system-ui;
 }

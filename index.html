@@ -21,13 +21,13 @@
 </head>
 <body>
   <div class="nav-bar" id="top-page">
-    <h1 class="nav-bar-name baumans-regular">
+    <h2 class="nav-bar-name baumans-regular">
       Mihai Sacalianu
-    </h1> 
+    </h2> 
     <div class="nav-bar-menu">
       <div class="nav-bar-links">
-        <a href="#skils-container">SKILLS</a>
-        <a href="#">PROJECTS</a>
+        <a href="#skills-section">SKILLS</a>
+        <a href="#projects-section">PROJECTS</a>
         <a href="#">CV</a>
       </div>
       <div class="avatar">
@@ -37,20 +37,20 @@
   </div>
 
   <div class="main-container mx-auto flex justify-center items-end">
-      <div class="main-text-container p-10 ">
-        <h1 class= "mb-2">Full-Stack Developer</h1>
-        <p class="my-10 text-lg">Hi, I am Mihai – a web developer with a passion for creating modern, responsive, and user-friendly websites. </p>
-        <a href="#" class="content-container-btn rounded-md p-2.5">View my work</a>
-      </div>
+    <div class="main-text-container">
+      <h1 class= "mb-2">Full-Stack Developer</h1>
+      <p class="mt-10 text-lg">Hi, I am Mihai – a web developer with a passion for creating modern, responsive, and user-friendly websites. </p>
+      <a href="https://github.com/mihaisacalianu" class="content-container-btn rounded-md p-2.5">View my work</a>
+    </div>
   </div>
 
-  <div class="skills-main-container mt-20 mx-auto" id="skils-container">
+  <div class="skills-main-container mt-20 mx-auto" id="skills-section">
     <div class="skills-header flex justify-between items-center">
-      <h1>Skills</h1>
+      <h2>Skills</h2>
       <a href="#top-page" class="home-btn">Home</a>
     </div>
     <div class="skills-main-content mt-20">
-      <h3>Skills, tools and technologies I use to craft my work:</h3>
+      <h5>Skills, tools and technologies I use to craft my work:</h5>
       <div class="logos-container p-10 mt-20 w-1/2">
         <a href="https://rubyonrails.org/"><img src="./images/rubyOnRails.png" alt="ruby-on-rails-logo"></a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./images/javascript.png" alt="javascript-logo"></a>
@@ -66,6 +66,70 @@
         <a href="https://www.postgresql.org/"><img src="./images/postgreesql.png" alt="postgreesql-logo"></a>
         <a href="https://www.mysql.com/"><img src="./images/sql.png" alt="sql-logo"></a>
       </div>
+    </div>
+  </div>
+
+  <div class="projects-main-container mt-20 mx-auto" id="projects-section">
+    <div class="projects-header flex justify-between items-center">
+      <h2>Projects</h2>
+      <a href="#top-page" class="home-btn">Home</a>
+    </div>
+    <div class="projects-cards-container flex justify-between mt-20">
+      <a href="https://smoke-n-go-mihaisacalianu-3c53f5136ac3.herokuapp.com">
+      <div class="project-card">
+        <img src="./images/smoke.png" alt="card-image">
+        <div class="card-text">
+          <h4>Smoke 'n Go 🍖</h4>
+          <ul class="skills-list flex flex-wrap">
+            <li>Ruby on Rails</li>
+            <li>PostgreSql</li>
+            <li>Javascript</li>
+            <li>Heroku</li>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Scss</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="project-card">
+        <img src="./images/hexplore.png" alt="card-image">
+        <div class="card-text">
+          <h4>Hexplore 🗺️</h4>
+          <ul class="skills-list flex flex-wrap">
+            <li>Ruby on Rails</li>
+            <li>PostgreSql</li>
+            <li>Javascript</li>
+            <li>Heroku</li>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Scss</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="project-card">
+        <img src="./images/watchList.png" alt="card-image">
+        <div class="card-text">
+          <h4>Watch List 🎥</h4>
+          <ul class="skills-list flex flex-wrap">
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+            <li>Html</li>
+            <li>Css</li>
+          </ul>
+        </div>
+      </div>
+    </a>
+    </div>
+    <div class="projects-footer mt-20 text-center text-white text-3xl">
+      <h5>Find more projects on my github profile --> <a href="https://github.com/mihaisacalianu?tab=repositories">GitHub</a></h5>
     </div>
   </div>
 

@@ -2,6 +2,7 @@
 @import url('components/contentContainer.css');
 @import url('components/logosContainer.css');
 @import url('components/backToTop.css');
+@import url('components/cards.css');
 
 
 body {
@@ -10,6 +11,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 
 .main-container {
   margin-top: 4rem;
@@ -21,19 +23,36 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0 0 100px rgba(231, 76, 60, 1); /* Glowing red effect */
+  box-shadow: 0 0 100px rgba(231, 76, 60, 0.6); /* Glowing red effect */
   transition: box-shadow 0.5s ease;
   border-radius: 30px;
 }
+.main-text-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+}
+
+
 .skills-main-container{
   font-family: "Baumans", system-ui;
   width: 70%;
   height: 100dvh;
-  font-size: 5rem;
+  /* font-size: 5rem; */
   font-weight: bold;
   background: linear-gradient(to right, #bddcfc, #ee3910);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.skills-main-container h2{
+  font-size: 4rem;
+}
+
+.skills-main-container h5{
+  font-size: 2rem;
 }
 
 .skills-main-content{
@@ -44,6 +63,25 @@ body {
   width: 100%;
 }
 
-.skills-main-content h3{
-  font-size: 3rem;
+
+.projects-main-container{
+  width: 70%;
+  height: 100dvh;
+}
+.projects-main-container h2{
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  font-family: "Baumans", system-ui;
+}
+.projects-footer{
+  font-family: "Baumans", system-ui;
+}
+.projects-footer a{
+  border: 2px solid white;
+  padding: 5px;
+}
+.projects-footer a:hover{
+  color:#ee3910
 }
