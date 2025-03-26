@@ -1,29 +1,37 @@
 .project-card{
   color: white;
-  width: 350px;
-  height: 650px;
-  height: auto;
-  box-shadow: 0 0 100px rgba(231, 76, 60, 1); /* Glowing red effect */
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 0 100px rgba(231, 76, 60, 0.4); /* Glowing red effect */
   transition: box-shadow 0.5s ease;
   border-radius: 30px;
+}
 
-  /* background-color: #7e98b7; */
+.project-card:hover{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 .project-card img{
-  border-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   padding: 0;
   width: 100%;
-  height: 70%;
+  height: 50%;
   margin-bottom: 5px;
   padding: 0;
 }
 .project-card h4{
   font-size: 2rem;
-
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .card-text{
   padding: 20px;
-  text-align: center;
+  text-align: left;
+}
+
+.skills-list li{
+  margin-right: 1rem;
 }
