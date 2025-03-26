@@ -3,6 +3,7 @@
 @import url('components/logosContainer.css');
 @import url('components/backToTop.css');
 @import url('components/cards.css');
+@import url('components/contactForm.css');
 
 
 body {
@@ -46,15 +47,12 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .skills-main-container h2{
   font-size: 4rem;
 }
-
 .skills-main-container h5{
   font-size: 2rem;
 }
-
 .skills-main-content{
   display: flex;
   flex-direction: column;
@@ -84,4 +82,56 @@ body {
 }
 .projects-footer a:hover{
   color:#ee3910
+}
+
+.contact-main-container{
+  font-family: "Baumans", system-ui;
+  color: white;
+  width: 70%;
+  height: 100dvh;
+
+}
+.contact-main-container h2{
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  font-family: "Baumans", system-ui;
+}
+
+.contact-main-container h4{
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  font-family: "Baumans", system-ui;
+}
+
+.contact-content-container{
+  height: 70%;
+}
+
+.contact-content-text{
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0.3fr 1fr;
+  width: 45%;
+}
+
+.title{
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-self: flex-start;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-social-media-icons{
+  width: 30%;
+  font-size: 2rem;
+}
+
+.contact-social-media-icons a:hover {
+  color: #ee3910;
 }

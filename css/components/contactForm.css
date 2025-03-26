@@ -1,0 +1,45 @@
+.contact-form{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form label{
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+
+.contact-form input{
+  margin-bottom: 1.5rem;
+  border: 1px solid #9CA3AF;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: #061B2D;
+}
+
+.contact-form textarea{
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: #061B2D;
+  border: 1px solid #9CA3AF;
+}
+
+.contact-form button{
+  background: linear-gradient(to right, #bddcfc, #ee3910);
+  margin-top: 1rem;
+  width: 30%;
+  box-shadow: 0 0 100px rgba(231, 76, 60, 1); /* Glowing red effect */
+  transition: box-shadow 0.5s ease;
+  color: #061B2D;
+  border: 1px solid white;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+
+.contact-form button:hover{
+  box-shadow: 0 0 300px rgba(231, 76, 60, 1);
+  color: white;
+}
