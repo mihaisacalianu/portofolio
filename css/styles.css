@@ -142,7 +142,6 @@ a{
   color: #ee3910;
 }
 
-
 @media (max-width: 640px) {
   .main-container{
     width: 100%;
@@ -181,4 +180,28 @@ a{
     text-align: center;
 
   }
+
+  .projects-main-container{
+    width: 100%;
+    height: 100dvh;
+    padding: 2rem;
+  }
+  .projects-header h2{
+    font-size: 3rem;
+  }
+
+  .projects-footer{
+   height: 20%;
+   display: flex;
+   flex-direction: column;
+  }
+  .projects-footer h5{
+    line-height: 2.5;
+    font-size: 1.2rem;
+  }
+
+  .projects-footer a{
+    border: none;
+  }
+
 }
