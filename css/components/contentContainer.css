@@ -28,3 +28,8 @@
   box-shadow: 0 0 300px rgba(231, 76, 60, 1);
   color: white;
 }
+
+#downloadCV:hover {
+  box-shadow: 0 0 300px rgba(231, 76, 60, 1);
+  color: white;
+}

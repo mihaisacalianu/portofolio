@@ -63,3 +63,25 @@ a:hover{
   transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
 }
+
+@media (max-width: 640px) {
+  .nav-bar{
+    border-radius: 0px;
+    width: 100%;
+    margin: 0;
+  }
+  .nav-bar-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-bar-links{
+    width: 70%;
+  }
+  .avatar{
+    width: 30%;
+  }
+  .nav-bar-name{
+    display: none;
+  }
+}

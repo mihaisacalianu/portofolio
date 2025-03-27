@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baumans&family=Lora&family=Oxanium:wght@200..800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- <link href="./css/dist/output.css" rel="stylesheet"> -->
   <script type="importmap">
     {
       "imports": {
@@ -40,7 +41,10 @@
     <div class="main-text-container">
       <h1 class= "mb-2">Full-Stack Developer</h1>
       <p class="mt-10 text-lg">Hi, I am Mihai – a web developer with a passion for creating modern, responsive, and user-friendly websites. </p>
-      <a href="https://github.com/mihaisacalianu" class="content-container-btn rounded-md p-2.5">View my work</a>
+      <div class="main-container-buttons flex">
+        <a href="https://github.com/mihaisacalianu" class="content-container-btn rounded-md p-2.5 mr-5">View my work</a>
+        <button id="downloadCV" class="content-container-btn rounded-md p-2.5">Download CV</button>
+      </div>
     </div>
   </div>
 
@@ -151,15 +155,14 @@
           <div class="flex justify-between items-center">
             <h5 class="title">Social Media:</h5>
             <div class="contact-social-media-icons flex justify-between items-center">
-              <a href="www.linkedin.com/in/mihaisacalianu"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/mihaisacalianu"><i class="fa-brands fa-linkedin"></i></a>
               <a href="https://github.com/mihaisacalianu"><i class="fa-brands fa-github"></i></a>
-              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://wa.me/07468459500" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
           </div>
         </div>
 
       </div>
-      <!-- https://formspree.io/f/mblgkvoq -->
       <form action="https://formspree.io/f/mblgkvoq" class="contact-form" method="POST" id="contact-form">
         <label for="name-input">Name</label>
         <input type="text" name="name-input" placeholder="Type you name" required>
