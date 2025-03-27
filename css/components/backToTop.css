@@ -5,3 +5,10 @@
   font-size: 4rem;
   font-family: "Baumans", system-ui;
 }
+@media (max-width: 640px) {
+
+  .home-btn{
+    font-size: 3rem;
+  }
+
+}

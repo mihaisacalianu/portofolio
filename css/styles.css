@@ -48,7 +48,6 @@ a{
   font-family: "Baumans", system-ui;
   width: 70%;
   height: 100dvh;
-  /* font-size: 5rem; */
   font-weight: bold;
   background: linear-gradient(to right, #bddcfc, #ee3910);
   -webkit-background-clip: text;
@@ -147,17 +146,39 @@ a{
 @media (max-width: 640px) {
   .main-container{
     width: 100%;
+    height: 100dvH;
+    border-radius: 0px;
+    margin-top: 0px;
   }
-  .main-text-container{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
+
+  .main-container-buttons{
+    margin-top: 40px;
     flex-direction: column;
-    height: 30%;
+
   }
 
-  .main-text-container h2{
-    font-size: 1rem;
+  .main-container-buttons a, button{
+   width: 100%;
+   text-align: center;
   }
 
+  .skills-main-container{
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .skills-header h2{
+    font-size: 3rem;
+  }
+
+  .skills-main-content{
+    width: 100%;
+    margin: 0;
+  }
+
+  .skills-main-content h5{
+    font-size: 1.2rem;
+    text-align: center;
+
+  }
 }
