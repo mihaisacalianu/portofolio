@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@import url('components/slideshow.css');
 @import url('components/navBar.css');
 @import url('components/contentContainer.css');
 @import url('components/logosContainer.css');
@@ -48,7 +49,6 @@ a{
   font-family: "Baumans", system-ui;
   width: 70%;
   height: 100dvh;
-  /* font-size: 5rem; */
   font-weight: bold;
   background: linear-gradient(to right, #bddcfc, #ee3910);
   -webkit-background-clip: text;
@@ -143,21 +143,132 @@ a{
   color: #ee3910;
 }
 
-
 @media (max-width: 640px) {
   .main-container{
     width: 100%;
+    height: 100dvH;
+    border-radius: 0px;
+    margin-top: 0px;
   }
-  .main-text-container{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
+
+  .main-container-buttons{
+    margin-top: 40px;
     flex-direction: column;
+
+  }
+
+  .main-container-buttons a, button{
+   width: 100%;
+   text-align: center;
+  }
+
+  .skills-main-container{
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .skills-header h2{
+    font-size: 3rem;
+  }
+
+  .skills-main-content{
+    width: 100%;
+    margin: 0;
+  }
+
+  .skills-main-content h5{
+    font-size: 1.2rem;
+    text-align: center;
+
+  }
+
+  .projects-main-container{
+    width: 100%;
+    height: 100dvh;
+    padding: 2rem;
+  }
+  .projects-header h2{
+    font-size: 3rem;
+  }
+
+  .projects-footer{
+   height: 20%;
+   display: flex;
+   flex-direction: column;
+  }
+  .projects-footer h5{
+    line-height: 2.5;
+    font-size: 1.2rem;
+  }
+
+  .projects-footer a{
+    border: none;
+  }
+  .projects-main-container{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+  .projects-cards-container{
+    display: none !important;
+  }
+  .slide-show-container{
+    display: flex !important;
+    justify-content: flex-start;
+    margin:0 !important;
+  }
+  #arrow-right, #arrow-left {
+    margin: 0 15px;
+    font-size: 2rem;
+  }
+
+  .contact-main-container{
+    width: 100%;
+    height: 100dvh;
+    padding: 2rem;
+  }
+  .contact-content-container {
+    flex-direction: column;
+  }
+  .contact-form{
+    margin-top: 2rem;
+    width: 100%;
+    height: 70%;
+  }
+
+  .contact-form label{
+    /* margin-top: 2rem; */
+   font-size: 1.2rem;
+   margin-top: 1rem;
+  }
+
+  .contact-content-text{
     height: 30%;
   }
 
-  .main-text-container h2{
+  .contact-content-text h4{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .contact-links .title{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+
+  .contact-links p{
+    margin-left: 2rem;
     font-size: 1rem;
   }
 
+  .contact-header h2{
+    font-size: 2rem;
+    width: 40%;
+  }
+
+  .contact-social-media-icons{
+    width: 50%;
+  }
 }

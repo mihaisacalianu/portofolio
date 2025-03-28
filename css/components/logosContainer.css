@@ -18,3 +18,30 @@
   height: 50px;
   width: 60px;
 }
+
+.logos-mobile{
+  display: none;
+}
+
+
+@media (max-width: 640px) {
+  .logos-container{
+    width: 100dvw;
+    height: 50dvh;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    display: none;
+  }
+
+  .logos-mobile{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    width: 220px;
+    height: 220px;
+  }
+
+}

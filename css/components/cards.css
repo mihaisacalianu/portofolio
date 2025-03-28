@@ -35,3 +35,20 @@
 .skills-list li{
   margin-right: 1rem;
 }
+
+@media (max-width: 640px) {
+  .project-card{
+    color: white;
+    width: 240px;
+    height: 340px;
+    box-shadow: 0 0 100px rgba(231, 76, 60, 0.4); /* Glowing red effect */
+    transition: box-shadow 0.5s ease;
+    border-radius: 30px;
+  }
+
+  .project-card h4{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
