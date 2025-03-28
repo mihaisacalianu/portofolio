@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@import url('components/slideshow.css');
 @import url('components/navBar.css');
 @import url('components/contentContainer.css');
 @import url('components/logosContainer.css');
