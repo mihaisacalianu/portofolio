@@ -204,5 +204,28 @@ a{
   .projects-footer a{
     border: none;
   }
+  .projects-main-container{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+  .projects-cards-container{
+    display: none !important;
+  }
+  .slide-show-container{
+    display: flex !important;
+    justify-content: flex-start;
+    margin:0 !important;
+  }
+  #arrow-right, #arrow-left {
+    margin: 0 15px;
+    font-size: 2rem;
+  }
 
+
+  /* .slide-show-container a{
+    display: inline !important;
+    width: 40% !important;
+  } */
 }
