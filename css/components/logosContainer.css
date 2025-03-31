@@ -4,7 +4,7 @@
   height: 350px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  box-shadow: 0 0 100px rgba(231, 76, 60, 1); /* Glowing red effect */
+  box-shadow: 0 0 50px rgba(231, 76, 60, 1); /* Glowing red effect */
   transition: box-shadow 0.5s ease;
   border-radius: 30px;
 }
