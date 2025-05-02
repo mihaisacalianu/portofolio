@@ -210,8 +210,10 @@ a{
     justify-content: center;
   }
   .projects-cards-container{
+    width: 100%;
     display: none !important;
   }
+
   .slide-show-container{
     display: flex !important;
     justify-content: flex-start;

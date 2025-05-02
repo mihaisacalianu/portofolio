@@ -88,13 +88,28 @@
     </div>
   </div>
 
-  <div class="projects-main-container mt-20 mx-auto" id="projects-section">
+  <div class="projects-main-container !mt-20 mx-auto overflow-scroll" id="projects-section">
     <div class="projects-header flex justify-between items-center" id="projects-header">
       <h2>Projects</h2>
       <a href="#top-page" class="home-btn">Home</a>
     </div>
-    <div class="projects-cards-container flex justify-between mt-20">
-      <a href="https://smoke-n-go-mihaisacalianu-3c53f5136ac3.herokuapp.com">
+    <div class="projects-cards-container grid grid-cols-2 justify-center gap-5 mt-20 ">
+      <a class="flex justify-center" href="https://github.com/mihaisacalianu/recipe-app">
+        <div class="project-card">
+          <img src="./images/recipeApp.png" alt="card-image">
+          <div class="card-text">
+            <h4>Cooking App 👨‍🍳 </h4>
+            <ul class="skills-list flex flex-wrap">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>TailwindCSS</li>
+              <li>Html</li>
+              <li>Css</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+      <a  class="flex justify-center"  href="https://smoke-n-go-mihaisacalianu-3c53f5136ac3.herokuapp.com">
       <div class="project-card">
         <img src="./images/smoke.png" alt="card-image">
         <div class="card-text">
@@ -113,7 +128,7 @@
       </div>
     </a>
 
-    <a href="https://www.hexplore.io">
+    <a  class="flex justify-center" href="https://www.hexplore.io">
       <div class="project-card">
         <img src="./images/hexplore.png" alt="card-image">
         <div class="card-text">
@@ -131,8 +146,7 @@
         </div>
       </div>
     </a>
-
-    <a href="https://github.com/mihaisacalianu/rails-watch-list">
+    <a class="flex justify-center"  href="https://github.com/mihaisacalianu/rails-watch-list">
       <div class="project-card">
         <img src="./images/watchList.png" alt="card-image">
         <div class="card-text">
@@ -152,12 +166,12 @@
 
     <i class="arrow fa-solid fa-arrow-right text-white text-6xl" id="arrow-right"></i>
    </div>ß
-    <div class="projects-footer mt-20 text-center text-white text-3xl">
+    <!-- <div class="projects-footer  text-center text-white text-3xl">
       <h5>Find more projects on my github profile --> <a href="https://github.com/mihaisacalianu?tab=repositories">GitHub</a></h5>
-    </div>
+    </div> -->
   </div>
 
-  <div class="contact-main-container mt-20 mx-auto" id="contact-section">
+  <div class="contact-main-container !mt-35 mx-auto" id="contact-section">
 
     <div class="contact-header flex justify-between items-center">
       <h2>Get in touch!</h2>
@@ -181,7 +195,6 @@
             </div>
           </div>
         </div>
-
       </div>
       <form action="https://formspree.io/f/mblgkvoq" class="contact-form" method="POST" id="contact-form">
         <label for="name-input">Name</label>
